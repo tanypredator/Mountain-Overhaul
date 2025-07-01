@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Expanded Materials - Metals</li>
+    </mods>
+<match Class="PatchOperationSequence">
+  <operations>
+
+	<!-- ================ Coal ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="EM_MineableCoal"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(130,130,120)</color>
+    			<colorTwo>(66,69,74)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Iron ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="EM_MineableIron"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(140,140,130)</color>
+    			<colorTwo>(114,98,86)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Lead ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="EM_MineableLead"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(130,130,120)</color>
+    			<colorTwo>(74,74,85)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Tin ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="EM_MineableTin"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(140,140,130)</color>
+    			<colorTwo>(121,123,123)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Copper ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="EM_MineableCopper"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(130,140,140)</color>
+    			<colorTwo>(144,120,89)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Titanium ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="EM_MineableTitanium"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(140,150,150)</color>
+    			<colorTwo>(67,74,74)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+  </operations>
+    </match>
+  </Operation>
+
+</Patch>

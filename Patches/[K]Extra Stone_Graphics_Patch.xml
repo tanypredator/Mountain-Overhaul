@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[K]Extra Stone</li>
+    </mods>
+<match Class="PatchOperationSequence">
+  <operations>
+
+	<!-- ================ Kura_Andesite ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Andesite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSlate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(113,113,118)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Andesite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Anorthosite ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Anorthosite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSlate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(158,139,132)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Anorthosite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Basalt ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Basalt"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredLimestone</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(73,77,79)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Basalt"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Blueschist =============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Blueschist"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSlate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(159,191,214)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Blueschist"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Chalk =============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Chalk"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSandstone</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(220,220,220)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Chalk"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Charnockite ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Charnockite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredGranite</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(141,120,79)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Charnockite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Creole Marble ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_CreoleMarble"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredGranite</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(174,211,210)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_CreoleMarble"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Dacite ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Dacite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredGranite</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(177,178,172)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Dacite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Dunite ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Dunite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredGranite</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(153,176,110)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Dunite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Emperador Dark ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Emperadordark"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredGranite</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(72,46,38)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Emperadordark"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Etowah Marble ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_EtowahMarble"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredGranite</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(246,200,184)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_EtowahMarble"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Gabbro ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Gabbro"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredGranite</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(82,85,66)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Gabbro"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_GreenSchist ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_GreenSchist"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSlate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(82,98,71)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_GreenSchist"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Jaspillite ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Jaspillite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSlate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(208,103,84)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Jaspillite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Lepidolite ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Lepidolite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSlate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(124,92,111)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Lepidolite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Lherzolite ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Lherzolite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredGranite</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(150,176,81)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Lherzolite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Lignite ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Lignite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSlate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(82,72,70)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Lignite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Migmatite ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Migmatite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSlate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(136,146,155)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Migmatite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Monzonite ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Monzonite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredGranite</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(193,184,186)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Monzonite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Obsidian ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Obsidian"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredCrystals</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(35,35,35)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Obsidian"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Rhyolite ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Rhyolite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredLimestone</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(201,159,134)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Rhyolite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Scoria ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Scoria"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSandstone</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(87,80,73)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Scoria"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Serpentinite ============= -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Serpentinite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSlate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(60,96,58)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Serpentinite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Siltstone ============= -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Siltstone"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSlate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(167,146,117)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Siltstone"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Sovite ============= -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Sovite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredGranite</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(187,181,135)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Sovite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Kura_Thometzekite ============= -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Kura_Thometzekite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSandstone</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(180,213,197)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedKura_Thometzekite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+
+  </operations>
+    </match>
+  </Operation>
+
+</Patch>

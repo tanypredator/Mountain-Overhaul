@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="MineableSteel"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(140,140,130)</color>
+    			<colorTwo>(145,95,85)</colorTwo>
+    		</graphicData>
+      </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="MineableComponentsIndustrial"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(140,130,130)</color>
+    			<colorTwo>(155,105,75)</colorTwo>
+    		</graphicData>
+      </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="MineablePlasteel"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(140,140,130)</color>
+    			<colorTwo>(134,166,166)</colorTwo>
+    		</graphicData>
+      </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="MineableSilver"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(145,145,130)</color>
+    			<colorTwo>(210,210,230)</colorTwo>
+    		</graphicData>
+      </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="MineableGold"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(140,140,130)</color>
+    			<colorTwo>(187,173,25)</colorTwo>
+    		</graphicData>
+      </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="MineableUranium"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+    			<color>(140,140,130)</color>
+      		<colorTwo>(190,220,200)</colorTwo>
+    		</graphicData>
+      </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="MineableJade"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(140,140,130)</color>
+      		<colorTwo>(90,150,95)</colorTwo>
+    		</graphicData>
+      </value>
+    </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Coal Expanded (Continued)</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="MineableCoal"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(130,130,120)</color>
+      		<colorTwo>(50,40,40)</colorTwo>
+    		</graphicData>
+      </value>
+    </match>
+  </Operation>
+
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ores and metallurgy</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="MineableCopperOre"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(130,135,135)</color>
+      		<colorTwo>(45,145,120)</colorTwo>
+    		</graphicData>
+      </value>
+    </match>
+  </Operation>
+
+
+</Patch>

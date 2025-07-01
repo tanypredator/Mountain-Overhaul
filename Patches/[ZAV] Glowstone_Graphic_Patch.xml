@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[ZAV] Glowstone</li>
+    </mods>
+<match Class="PatchOperationSequence">
+  <operations>
+
+	<!-- =========== GLO_MineableGlowstone ============ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="GLO_MineableGlowstone"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableGems</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(114,92,83)</color>
+    			<colorTwo>(113,187,252)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+
+  </operations>
+    </match>
+  </Operation>
+
+</Patch>

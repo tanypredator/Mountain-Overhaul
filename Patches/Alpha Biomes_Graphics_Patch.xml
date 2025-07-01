@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+<match Class="PatchOperationSequence">
+  <operations>
+
+	<!-- ================ Rose Quartz ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="GU_RoseQuartz"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredCrystals</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(120,50,50)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="GU_SmoothedQuartz"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Obsidian ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="AB_Obsidianstone"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredCrystals</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(50,50,50)</color>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Mudstone ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="AB_Mudstone"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSlate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(31,25,21)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="AB_SmoothedMudstone"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+
+  </operations>
+    </match>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>CCP's Stone Tweaks</li>
+    </mods>
+<match Class="PatchOperationSequence">
+  <operations>
+
+
+
+	<!-- ================ PinkMarble ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="PinkMarble"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredGranite</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(255,235,255)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedPinkMarble"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ BlueGranite ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="BlueGranite"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredGranite</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(108,122,135)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedBlueGranite"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+	<!-- ================ GreenMarble ============== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="GreenMarble"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredGranite</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(130,145,110)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="SmoothedGreenMarble"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+
+
+  </operations>
+    </match>
+  </Operation>
+
+</Patch>

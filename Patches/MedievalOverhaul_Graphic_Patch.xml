@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Overhaul</li>
+    </mods>
+<match Class="PatchOperationSequence">
+  <operations>
+
+	<!-- ================ Clay ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_NaturalWall_Clay"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredSandstone</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(132, 99, 81)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_SmoothedClay"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+
+	<!-- ================ Coal Ore ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_MineableCoal"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(114,114,114)</color>
+    			<colorTwo>(46,46,46)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Salt ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_MineableSalt"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(140,130,120)</color>
+    			<colorTwo>(248,197,153)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ MineableGold ================= -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_MineableGold"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(120,110,120)</color>
+    			<colorTwo>(187,173,25)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ MineableIron ================= -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_MineableIron"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(140,140,130)</color>
+    			<colorTwo>(145,95,85)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Citrine ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_MineableCitrine"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableGems</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(114,92,83)</color>
+    			<colorTwo>(206,140,80)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Amber ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_MineableAmber"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(114,92,83)</color>
+    			<colorTwo>(206,140,80)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Onyx ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_MineableOnyx"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableGems</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(114,92,83)</color>
+    			<colorTwo>(43,43,43)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Emerald ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_MineableEmerald"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableGems</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(114,92,83)</color>
+    			<colorTwo>(117,153,94)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Sapphire ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_MineableSapphire"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableGems</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(114,92,83)</color>
+    			<colorTwo>(60,109,158)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Ruby ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_MineableRuby"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableGems</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(114,92,83)</color>
+    			<colorTwo>(170,49,49)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+
+  </operations>
+    </match>
+  </Operation>
+
+</Patch>

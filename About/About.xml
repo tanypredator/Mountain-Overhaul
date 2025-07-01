@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Mountains Retexture</name>
+  <packageId>TP.MountainsRetexture</packageId>
+  <author>Tanypredator</author>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/MountainsLogo</modIconPath>
+  <modDependencies />
+  <loadAfter />
+  <description>This mod changes visuals of the natural mountains so that each mountain tile is a separate rock. It was inspired by the Minerals_SK mod, which looks great, but includes very complicated mechanics, leading to mod conflicts. In my mod there is no such mechanics that adds a new rock type for the walls of rooms and tunnels cut in the mountain, so they will look the same way as the exterior mountain walls, until you smoothen them.
+
+I've also changed the rock color. Vanilla ores are included too.
+
+Textures were (mostly) made by ChatGPT and refined in GIMP :)
+</description>
+  <modVersion>1.0</modVersion>
+</ModMetaData>

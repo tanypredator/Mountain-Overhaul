@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Jewelry</li>
+    </mods>
+<match Class="PatchOperationSequence">
+  <operations>
+
+	<!-- ================ Diamond ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="MineableDiamond"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableGems</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(120,110,120)</color>
+			<colorTwo>(100,170,190)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Ruby ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="MineableRuby"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableGems</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(120,110,120)</color>
+			<colorTwo>(125,38,37)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Sapphire ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="MineableSapphire"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableGems</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(120,110,120)</color>
+			<colorTwo>(48,68,156)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+
+  </operations>
+    </match>
+  </Operation>
+
+</Patch>

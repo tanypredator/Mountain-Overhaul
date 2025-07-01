@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biomes! Islands</li>
+    </mods>
+<match Class="PatchOperationSequence">
+  <operations>
+
+	<!-- ========= Coral original 250,180,147 ========== -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="BiomesIslands_CoralRock"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+			<texPath>Rock/WeatheredCorals</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+			<color>(200,180,167)</color>
+    		</graphicData>
+      </value>
+    </li>
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="BiomesIslands_SmoothedCoral"]/graphicData</xpath>
+      <value>
+    <graphicData>
+		<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<linkType>CornerFiller</linkType>
+		<linkFlags>
+			<li>Rock</li>
+			<li>MapEdge</li>
+		</linkFlags>
+    </graphicData>
+      </value>
+    </li>
+
+  </operations>
+    </match>
+  </Operation>
+
+
+</Patch>

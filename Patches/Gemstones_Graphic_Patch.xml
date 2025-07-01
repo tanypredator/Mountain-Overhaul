@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Gemstones</li>
+    </mods>
+<match Class="PatchOperationSequence">
+  <operations>
+
+	<!-- ================ Amethyst ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Z_MineableAmethyst"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableGems</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(120,110,120)</color>
+    			<colorTwo>(162, 118, 174)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Chalcedony ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Z_MineableChalcedony"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableGems</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(110,120,120)</color>
+    			<colorTwo>(152, 175, 222)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Citrine ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Z_MineableCitrine"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableGems</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(120,120,110)</color>
+    			<colorTwo>(231, 190, 68)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Garnet ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Z_MineableGarnet"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableGems</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(100,90,100)</color>
+    			<colorTwo>(70,7,28)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Lapis ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Z_MineableLapis"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+     	 		<texPath>Rock/WeatheredSlate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(30, 60, 195)</color>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Quartz ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Z_MineableQuartz"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+    	  		<shaderType>CutoutComplex</shaderType>
+     	 		<texPath>MineableGems</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(150,140,150)</color>
+    			<colorTwo>(231, 212, 212)</colorTwo>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Serpentine ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Z_MineableSerpentine"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+     	 		<texPath>Rock/WeatheredSlate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(180, 200, 121)</color>
+    		</graphicData>
+      </value>
+    </li>
+
+	<!-- ================ Turquoise ================ -->
+
+    <li Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Z_MineableTurquoise"]/graphicData</xpath>
+      <value>
+  	  	<graphicData>
+     	 		<texPath>Rock/WeatheredSlate</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(2,2)</drawSize>
+      		<color>(80, 200, 190)</color>
+    		</graphicData>
+      </value>
+    </li>
+
+  </operations>
+    </match>
+  </Operation>
+
+</Patch>
